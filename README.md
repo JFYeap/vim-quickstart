@@ -1,2 +1,8 @@
 # ViM Quickstart 
-This is my preferred vim configuration. I considered adding plugins but chose to keep it simple and portable at the end. Enjoy.
+This is my preferred vim configuration. I considered adding plugins but chose to keep it simple and portable at the end.
+
+Enjoy.
+
+## Usage
+* Copy `gruvbox.vim` to `~/.vim/colors/` to enable the theme.
+* Create `~/.vim/ftpligin/<filetype>.vim` to customise config for specific filetypes.
