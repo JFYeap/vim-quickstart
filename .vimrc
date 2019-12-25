@@ -8,6 +8,12 @@ set hidden
 syntax on
 filetype plugin indent on
 
+" Persistent undo
+set undofile
+set undolevels=1000
+set undoreload=10000
+set undodir=~/.vim/undo
+
 " Formatting options
 set expandtab
 set formatoptions=tcqrn1
