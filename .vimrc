@@ -28,7 +28,7 @@ set ruler
 set showmode
 set showcmd
 set visualbell
-set wrap 
+set wrap
 nnoremap <C-\> :let &cc = &cc == '' ? '80' : ''<CR>
 
 " Navigation options
@@ -44,6 +44,7 @@ set incsearch
 set ignorecase
 set smartcase
 set showmatch
+map / /\v
 map <Space> :noh<CR>
 
 " Theme options
