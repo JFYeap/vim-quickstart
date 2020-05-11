@@ -20,6 +20,7 @@ set formatoptions=tcqrn1
 set shiftround
 set shiftwidth=4
 set tabstop=4
+autocmd BufWritePre * :%s/\s\+$//e
 
 " Visual options
 set laststatus=2
