@@ -46,6 +46,7 @@ set ignorecase
 set smartcase
 set showmatch
 map / /\v
+map <C-F> :%s/\v
 map <Space> :noh<CR>
 
 " Theme options
